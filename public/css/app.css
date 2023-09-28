@@ -6,3 +6,6 @@
     box-shadow: inset 5px 3px 6px rgba(0,0,0,0.1);
     width: 190px;
 }
+.crimson-text {
+    color: crimson;
+}

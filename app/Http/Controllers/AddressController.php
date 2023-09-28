@@ -60,7 +60,7 @@ class AddressController extends Controller
         $blockId = $this->service->getBlockByTimestamp($date->getTimestamp());
         $result = $this->service->getTransactionsByTimestamp($formFields['searchAddress'], $blockId->result);
 
-        return view('result', [
+        return view('resultTimeStamp', [
             'apiData' => $result->result,
         ]);
     }
