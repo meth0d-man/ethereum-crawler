@@ -11,8 +11,5 @@
         "ts-loader": "^9.4.4",
         "typescript": "^5.2.2",
         "vite": "^4.0.0"
-    },
-    "dependencies": {
-        "ethers": "^6.7.1"
     }
 }

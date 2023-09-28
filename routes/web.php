@@ -24,3 +24,5 @@ Route::get('/test', [EthereumApiController::class, 'test'])->middleware('guest')
 Route::get('/list', [AddressController::class, 'getAddressData'])->middleware('guest');
 
 Route::get('/home', [AddressController::class, 'home'])->middleware('guest');
+
+Route::get('/time-balance', [AddressController::class, ''])->middleware('guest');
