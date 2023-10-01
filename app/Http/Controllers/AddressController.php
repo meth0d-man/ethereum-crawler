@@ -62,6 +62,7 @@ class AddressController extends Controller
 
         return view('resultTimeStamp', [
             'apiData' => $result->result,
+            'message' => $result->message
         ]);
     }
 

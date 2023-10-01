@@ -28,7 +28,7 @@
         </table>
         <div>
             @else
-                <h1 class="crimson-text">No transactions</h1>
+                <h1 class="crimson-text">{{ $message }}</h1>
             @endif
         </div>
     </div>
